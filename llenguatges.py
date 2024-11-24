@@ -1,10 +1,11 @@
 #Nova funcionalitat
 
-print("Introdueix els llenguatges de programació que domines:")
-print("Per acabar introdueix un 0.")
-llenguatge = input()
+llenguatge = ""
 llenguatges_list = []
 while llenguatge != "0":
+    llenguatge = input("LLenguatge de programació que coneixes? 0 per acabar: ")
     llenguatges_list.append(llenguatge)
-    llenguatge = input()
-print("Llenguatges:", llenguatges_list)
+
+print("Segons")
+for l in llenguatges_list:
+    print(l)
