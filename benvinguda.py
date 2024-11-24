@@ -1,2 +1,6 @@
-print("El meu nom és Pigu Ino")
-print("Sóc alumne de 2n de Batxillerat")
+name = input("Introdueix el teu nom: ")
+print("El meu nom és", name)
+age = int(input("Introdueix la teva edat: "))
+print("Tenc", age, "anys")
+curs = input("Introdueix el teu curs: ")
+print("Sóc alumne de", curs)
