@@ -2,8 +2,8 @@
 
 llenguatge = ""
 llenguatges_list = []
-while llenguatge != "0":
-    llenguatge = input("LLenguatge de programació que coneixes? 0 per acabar: ")
+while llenguatge != "-1":
+    llenguatge = input("LLenguatge de programació que coneixes? -1 per acabar: ")
     llenguatges_list.append(llenguatge)
 
 print("Segons")
